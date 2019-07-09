@@ -293,6 +293,7 @@ h6 {
   .portfolio-item:hover img {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
+    border: 3px solid red;
   }
   .portfolio-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
