@@ -228,6 +228,20 @@ h6 {
    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
+.text_of_port{
+   color: white;
+   height: 8rem;
+   width: 90%;
+   display: block;
+   line-height: 8.5rem;
+   font-size: 3.25rem;
+}
+
+.h2_of_port{
+   font-size: 80%;
+   font-weight: 300;
+}
+
 .callout {
   padding: 15rem 0;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
@@ -287,7 +301,7 @@ h6 {
     margin: 0;
   }
   .portfolio-item .caption {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(250, 193, 7, 0.92);
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
     -webkit-clip-path: inset(0px);
     clip-path: inset(0px);
@@ -308,10 +322,16 @@ h6 {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
-  .portfolio-item:hover .caption {
+  .portfolio-item:hover .caption{
     background-color: rgba(255, 255, 255, 0.0);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
+  }
+
+  .portfolio-item:hover .text_of_port{
+    color:rgba(255, 255, 255, 0.0);
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
   }
 }
 
