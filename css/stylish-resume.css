@@ -22,3 +22,15 @@ body {
 .main_title h1{
   font-size: 275%;
 }
+
+p{
+  font-size: 120%;
+}
+
+.skills_title{
+  border-bottom: 5px solid rgba(250, 193, 7, 1);
+}
+
+.tech_skills{
+  line-height: 1;
+}
